@@ -9,6 +9,7 @@ tags: [DBS101]
 
 In our flipped class session, I learned about Different Types of Database Users and, what are the Roles and Responsibilities of Database Administrator. 
 Firstly, there are 7 different types of database users that are categorized based up on their interaction with database:
+
 1)Database Administrator(controls the 3 levels of database[Physical level, Logical level, View level])
 
 2)Naive/Parametric End Users( individuals lacking DBMS knowledge who frequently utilize database applications for specific tasks)
