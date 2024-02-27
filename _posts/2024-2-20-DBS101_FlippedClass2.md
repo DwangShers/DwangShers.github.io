@@ -19,7 +19,6 @@ From Textbook/eBook.(Database systems fundamentals, unit 6)
 ---
 The topic that my group got was to create ERD for an "Online health book(E-health) system" which focuses on health records.
 From flipped class I have summed up and drew a ERD diagram which represents "E-health".
-![ERD](/home/wangdra/Desktop/DwangShers.github.io/image)
  
- 
+
 ---
