@@ -51,3 +51,7 @@ From flipped class I have summed up and drew a ERD diagram which represents "E-h
 * Health Record ---(1:1)--- Diagnosis. [one health record can have one diagnosis]
 
 * Diagnosis ---(N:1)--- Healthcare Provider. [One healthcare provider can have one or many diagnosis]
+
+In the given diagram, the "Diagnosis" entity which is inside the double rectangle is considered weak entity because it doesn't have its own primary key.
+
+The reason for "Medication Name" being multivalued is that a single prescription cna involve the administration in multiple medications simultaneously.
