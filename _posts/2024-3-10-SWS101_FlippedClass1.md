@@ -242,7 +242,7 @@ The password for the next level is stored in the file data.txt and is the only l
 When we check the data.txt, we will find a bunch of texts which are not sorted.
 First we will have to sort the texts, then find the unique texts to find the password.
 
-Solution : #sort data.txt | uniq -u
+Solution : #"sort data.txt | uniq -u"
 
 Password for bandit9 : EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
@@ -251,7 +251,7 @@ Password for bandit9 : EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
 We can find many binary words when we “cat data.txt”. So, to find the password (strings) command is used to find humanreadable texts, and we also should use grep to find the words with “=”.
 
-Solution: #strings data.txt | grep “===”
+Solution: #"strings data.txt | grep “===”"
 
 Password for bandit10: G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
@@ -273,7 +273,7 @@ In rot13 each letter is shifted 13 places.
 
 So, to solve this problem we have to again rot 13 to get the password.
  
-Solution : #cat data.txt | tr a-zA-Z n-za-mN-ZA-M
+Solution : #"cat data.txt | tr a-zA-Z n-za-mN-ZA-M"
 	
 Password for bandit12 : JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
@@ -294,7 +294,7 @@ Command line : #mkdir /tmp/lv12
 
 Then we will  have to convert the hex dump back to its original form by; 
 	
-Command line : # cat data.txt | xxd -r > data1  
+Command line : #"cat data.txt | xxd -r > data1"  
 
 Here, the arrow(>) tells it to revert the file into that new file data1.
 
@@ -435,7 +435,7 @@ Solution : In this one I have to have two terminals both logged in to bandit20. 
 
 In one of the terminal I run this command:
 
-#cat /etc/bandit_pass/bandit20 | nc -l localhost 1234 
+#"cat /etc/bandit_pass/bandit20 | nc -l localhost 1234" 
 
  “This starts a listening server (-l) on port 1234 on the localhost”
 
