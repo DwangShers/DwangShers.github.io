@@ -6,7 +6,7 @@ tags: [SWS101]
 
 ## Topic : Networking and OverTheWire Bandit
 ----
-### Networking
+### networking
 
 Basic Networking Concepts:
 
