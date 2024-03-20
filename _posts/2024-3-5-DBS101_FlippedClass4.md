@@ -65,7 +65,7 @@ Lets say, there is a table showing products and their sales in different offices
 
 ---
 ### ROLLUP and CUBE
-Last topic was presentation by Group 4. ROLLUP and CUBE are like special tools that help us make sense of data in different ways. In simple,
+Last topic was presentation by Group 4. ROLLUP and CUBE are like special tools that help us make sense of data in different ways. In simple,,
 
 ROLLUP is like a super handy way to summarize data. Imagine having a bunch of deals in different regions, and to see the total sales for each region and each sales agent. ROLLUP does just that. It groups data by different levels, like region and sales agent, and gives the total sales for each group.
 
