@@ -9,15 +9,9 @@ tags: [DBS101]
 
 In our sixth flipped class, we explored non-relational databases, focusing on their advantages, disadvantages, and applications. Our class was divided into six expert groups, each focusing on a different kind of non-relational database. I turned into a part of Group 5, which centered on time-series databases. 
 
-
-
 We began the class with a five-minute consultation, followed through 20 mins of discussions. Then, we spent 25 mins presenting to our home groups, and subsequently, we engaged in a fifteen-minute question and answer consultation. 
 
-
-
 Our main aim was to deepen our knowledge of kinds of non-relational databases and their importance in contemporary facts management systems. We aimed to apprehend the advantages and drawbacks of various types of non-relational databases. 
-
-
 
 Our tutor supplied us with lots of resources, Like websites: 
 
