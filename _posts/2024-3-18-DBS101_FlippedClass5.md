@@ -19,6 +19,13 @@ https://www.studytonight.com/dbms/database-normalization.php
 
 https://www.youtube.com/watch?v=IY5kYfCCRY0
 
+In our fifth flipped class, we learned about Normal Forms, which help make databases better. We made groups of 6-7 people each. We had four groups: Group 1 studied about First and Second Normal Forms, Group 2 studied about BCNF, Group 3 studied about Third Normal Form, and Group 4 studied about Fourth Normal Form. I got in group 1 which I will cover as follows.
+
+We started with a 10-minute talk, then had 30-minutes of group discussion. Finally, we spent 20 minutes showing what we learned to the whole class.
+
+Our goals from this flipped classroom were to use Normal Forms to make databases better and to understand why we need to reduce databases to these forms. 
+
+Our tutor provided us with resources like websites link 
 Plus, we were told to refer to Textbooks/eBook called “Database Systems Fundamentals,” especially Chapter 7, pages 303-351. These helped us understand Normal Forms better.
 
 ---
