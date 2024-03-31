@@ -1,6 +1,6 @@
 ---
-Title: SWS101 Flipped Class 1
-categories: [SWS101, Flipped_Class1]
+Title: SWS101 Journal 1
+categories: [SWS101, Journal1]
 tags: [SWS101]
 ---
 
