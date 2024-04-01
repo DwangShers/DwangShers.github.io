@@ -66,5 +66,3 @@ List of data structures used:
 4. Tree. Tree is very important data structure to represent things with a hierarchical structure. Trees are also used for indexed data collections since it made search easier.
 5. Set. The list of data, but without duplication. Internally, it's pretty much a HashTable or Search Tree.
 6. Graph. A graph data structure is a collection of nodes that have data and are connected to other nodes.
-
----
