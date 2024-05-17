@@ -29,6 +29,52 @@ d. https://www.ibm.com/docs/en/informix-servers/12.10?topic=objects-spatiotempor
 
 ---
 
+### Buffer Tree
+
+Buffer Trees are data structures designed to manage and process large volumes of data efficiently.
+
+They are particularly effective in scenarios where data is too large to fit in main memory and needs to be stored and managed on disk.
+
+#### Structure
+
+- Root Node:
+  Contains a buffer to hold incoming operations.
+- Internal Nodes:
+  Each internal node has a buffer and child pointers.
+  Buffers in internal nodes accumulate operations which are propagated to child nodes periodically.
+- Leaf Nodes:
+  Leaf nodes store the actual data.
+  Operations are eventually propagated to the leaf nodes and executed there.
+
+#### Operations
+
+- Insertion:
+
+Data or operations are inserted into the buffer at the root.
+When the root buffer is full, operations are flushed down to child nodes.
+This process continues recursively, ensuring buffers at each level manage overflow.
+
+- Deletion:
+
+Similar to insertion, deletions are initially stored in buffers.
+They are propagated to the appropriate leaf nodes where actual deletions occur.
+
+- Search:
+
+Searches traverse the tree from root to leaf, taking into account operations stored in buffers.
+This ensures that searches reflect the most up-to-date state of the tree.
+
+#### Advantages
+
+- Reduced I/O Operations:
+  By batching operations in buffers, buffer trees minimize the number of disk accesses.
+- Efficiency in Large Datasets:
+  Designed to handle datasets that exceed main memory capacity efficiently.
+- Amortized Performance:
+  Offers better average performance over a series of operations compared to traditional data structures.
+
+---
+
 ### Indexing of Spatial and Temporal Data
 
 #### Introduction:
@@ -64,47 +110,3 @@ Structure: In a bitmap index, each distinct value in a column is assigned a bit 
 #### Usage Example:
 
 Bitmap indexing is employed when columns have low cardinality but are frequently queried, providing efficient retrieval of data.
-
----
-
-### Buffer Tree
-Buffer Trees are data structures designed to manage and process large volumes of data efficiently.
-
-They are particularly effective in scenarios where data is too large to fit in main memory and needs to be stored and managed on disk.
-
-#### Structure
-* Root Node:
-Contains a buffer to hold incoming operations.
-* Internal Nodes:
-Each internal node has a buffer and child pointers.
-Buffers in internal nodes accumulate operations which are propagated to child nodes periodically.
-* Leaf Nodes:
-Leaf nodes store the actual data.
-Operations are eventually propagated to the leaf nodes and executed there.
-
-
-#### Operations
-* Insertion:
-
-Data or operations are inserted into the buffer at the root.
-When the root buffer is full, operations are flushed down to child nodes.
-This process continues recursively, ensuring buffers at each level manage overflow.
-
-* Deletion:
-
-Similar to insertion, deletions are initially stored in buffers.
-They are propagated to the appropriate leaf nodes where actual deletions occur.
-
-* Search:
-
-Searches traverse the tree from root to leaf, taking into account operations stored in buffers.
-This ensures that searches reflect the most up-to-date state of the tree.
-
-#### Advantages
-* Reduced I/O Operations:
-By batching operations in buffers, buffer trees minimize the number of disk accesses.
-* Efficiency in Large Datasets:
-Designed to handle datasets that exceed main memory capacity efficiently.
-* Amortized Performance:
-Offers better average performance over a series of operations compared to traditional data structures.
-
