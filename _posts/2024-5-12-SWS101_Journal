@@ -1,0 +1,22 @@
+---
+Title: SWS101 Journal 4
+categories: [SWS101, Journal4]
+tags: [SWS101]
+---
+
+## Topic : Traffic Analysis Essentials
+----
+I am solving this room (Traffic Analysis Essentials) which is based on Network Security and Traffic Analysis and the goal of solving this room is listed below. 
+
+#### Goal
+Learn Network Security and Traffic Analysis foundations and take a step into probing network animalies.
+
+### Introduction
+Network security is the protection of the underlying networking infrastructure from unauthorized access, misuse, or theft. It involves creating a secure infrastructure for devices, applications, users, and applications to work in a secure manner. It focuses on the system design, operation and management of the architecture/infrastructure to provide network accessibility, integrity, continuity and reliability.
+![alt text](<../image/Pasted image 1.png>)
+
+Traffic analysis (often called Network Traffic Analysis) is a subdomain of the Network Security domain.
+![alt text](<../image/Pasted image 2.png>)
+
+
+Traffic Analysis is a mehtod of intercepting, recording/monitoring, and analysing network data and communication patterns to detect and respond to system health issues, network anomalies, and threats.
