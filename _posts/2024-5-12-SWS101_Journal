@@ -5,18 +5,75 @@ tags: [SWS101]
 ---
 
 ## Topic : Traffic Analysis Essentials
-----
-I am solving this room (Traffic Analysis Essentials) which is based on Network Security and Traffic Analysis and the goal of solving this room is listed below. 
+
+---
+
+I am solving this room (Traffic Analysis Essentials) which is based on Network Security and Traffic Analysis and the goal of solving this room is listed below.
 
 #### Goal
+
 Learn Network Security and Traffic Analysis foundations and take a step into probing network animalies.
 
 ### Introduction
+
 Network security is the protection of the underlying networking infrastructure from unauthorized access, misuse, or theft. It involves creating a secure infrastructure for devices, applications, users, and applications to work in a secure manner. It focuses on the system design, operation and management of the architecture/infrastructure to provide network accessibility, integrity, continuity and reliability.
 ![alt text](<../image/Pasted image 1.png>)
 
 Traffic analysis (often called Network Traffic Analysis) is a subdomain of the Network Security domain.
 ![alt text](<../image/Pasted image 2.png>)
 
-
 Traffic Analysis is a mehtod of intercepting, recording/monitoring, and analysing network data and communication patterns to detect and respond to system health issues, network anomalies, and threats.
+
+### Network Security and Network Data
+
+![alt text](<Screenshot from 2024-05-15 15-20-26.png>)
+
+Network security is a critical aspect of protecting digital infrastructures, applications, devices, and systems from various online threats. It holds physical, technical, and administrative security layers to safeguard against unauthorized access and data breaches.
+
+There are two main approaches such as access control and threat control:
+
+Access control: such as network access control (NAC), identity and access management (IAM), load balancing, network segmentation, virtual private networks (VPNs), and the zero trust model.
+
+![alt text](<Pasted image.png>)
+
+Threat control measures: involve intrusion detection and prevention systems (IDS/IPS), data loss prevention (DLP), endpoint protection, cloud security, security information and event management (SIEM), and security orchestration automation and response (SOAR).
+
+![alt text](<Pasted image 1-1.png>)
+
+#### Managed Security Services (MSS)
+
+Managed Security Services (MSS) are outsourced services provided by Managed Security Service Providers (MSSPs) to enhance or fulfill an organization's security needs. These services include network penetration testing, vulnerability assessment, incident response, and behavioral analysis. MSS are beneficial for organizations lacking sufficient resources or expertise to manage security operations internally, offering cost-effective and scalable solutions.
+
+### Traffic Analysis / Network Traffic Analysis
+
+![alt text](<Pasted image 2.png>)
+
+Definition: Intercepting, recording, monitoring, and analyzing network data and communication patterns to detect system health issues, network anomalies, and threats.
+
+Purpose: Enhances security and operational efficiency by providing insights into network behavior and performance.
+
+#### Techniques
+
+Flow Analysis: Collects data from networking devices for statistical summaries.
+
+Pros: Easy to collect and analyze.
+Cons: Limited in depth, may miss root causes.
+
+Packet Analysis: Performs deep packet inspection for detailed investigation.
+
+Pros: Detailed insights into network traffic.
+Cons: Time-consuming and requires specialized skills.
+
+#### Benefits of the Traffic Analysis:
+
+- Provides full network visibility.
+- Helps comprehensive baselining for asset tracking.
+- Helps to detect/respond to anomalies and threats.
+
+#### Value of Traffic Analysis:
+
+Essential for maintaining network security and operational integrity.
+
+#### Implementation:
+
+Requires selection of appropriate tools and techniques based on organizational needs and capabilities.
