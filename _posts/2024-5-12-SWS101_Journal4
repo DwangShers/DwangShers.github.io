@@ -26,7 +26,7 @@ Traffic Analysis is a mehtod of intercepting, recording/monitoring, and analysin
 
 ### Network Security and Network Data
 
-![alt text](<Screenshot from 2024-05-15 15-20-26.png>)
+![alt text](<../image/Screenshot from 2024-05-15 15-20-26.png>)
 
 Network security is a critical aspect of protecting digital infrastructures, applications, devices, and systems from various online threats. It holds physical, technical, and administrative security layers to safeguard against unauthorized access and data breaches.
 
@@ -34,11 +34,11 @@ There are two main approaches such as access control and threat control:
 
 Access control: such as network access control (NAC), identity and access management (IAM), load balancing, network segmentation, virtual private networks (VPNs), and the zero trust model.
 
-![alt text](<Pasted image.png>)
+![alt text](<../image/Pasted imagedcd.png>)
 
 Threat control measures: involve intrusion detection and prevention systems (IDS/IPS), data loss prevention (DLP), endpoint protection, cloud security, security information and event management (SIEM), and security orchestration automation and response (SOAR).
 
-![alt text](<Pasted image 1-1.png>)
+![alt text](<../image/Pasted image 1scc.png>)
 
 #### Managed Security Services (MSS)
 
@@ -46,7 +46,7 @@ Managed Security Services (MSS) are outsourced services provided by Managed Secu
 
 ### Traffic Analysis / Network Traffic Analysis
 
-![alt text](<Pasted image 2.png>)
+![alt text](<../image/Pasted image 2csc.png>)
 
 Definition: Intercepting, recording, monitoring, and analyzing network data and communication patterns to detect system health issues, network anomalies, and threats.
 
