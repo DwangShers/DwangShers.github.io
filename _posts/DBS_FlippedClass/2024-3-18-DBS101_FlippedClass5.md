@@ -64,7 +64,7 @@ For a table to be in the First Normal Form, it should follow the following 4 rul
 
 Let’s look at an example. Imagine having a table with employee information and their skills. 
 
-![alt text](<../image/Screenshot from 2024-03-25 20-31-31.png>)
+![alt text](</image/Screenshot from 2024-03-25 20-31-31.png>)
 
 This table has a problem because the “emp_skills” column has multiple skills listed in one cell. According to 1NF, each cell should have only one piece of data.
 
@@ -77,11 +77,11 @@ Here’s how the table would look like after fixing:
 
 Employee Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 20-38-05.png>)
+![alt text](</image/Screenshot from 2024-03-25 20-38-05.png>)
 
 Employee Skills Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 20-39-40.png>)
+![alt text](</image/Screenshot from 2024-03-25 20-39-40.png>)
 
 By doing this, we make sure our database follows 1NF, making it easier to work with and update.
 
@@ -97,9 +97,9 @@ Partial dependency happens when a non-primary-key attribute depends on only part
 
 Let’s take an example to understand this. If we have two tables Students and Subjects, to store student information and information related to subjects.
 
-![alt text](<../image/Screenshot from 2024-03-25 20-56-33.png>)
+![alt text](</image/Screenshot from 2024-03-25 20-56-33.png>)
 
-![alt text](<../image/Screenshot from 2024-03-25 20-56-51.png>)
+![alt text](</image/Screenshot from 2024-03-25 20-56-51.png>)
 
 The primary key is a combination of student_id and subject_id. However, the teacher_name, which is not part of the primary key, depends only on the subject_id, not the primary key. This is a partial dependency.
 
@@ -109,17 +109,17 @@ Before removing partial dependency.
 
 Score Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 21-09-45.png>)
+![alt text](</image/Screenshot from 2024-03-25 21-09-45.png>)
 
 After removing partial dependency:
 
 Updated Subject Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 21-11-08.png>)
+![alt text](</image/Screenshot from 2024-03-25 21-11-08.png>)
 
 Updated Score Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 21-11-50.png>)
+![alt text](</image/Screenshot from 2024-03-25 21-11-50.png>)
 
 ---
 #### Third Normal Form (3NF)
@@ -140,13 +140,13 @@ The primary key is a combination of student_id and subject_id. The exam_type col
 
 Score Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 21-20-05.png>)
+![alt text](</image/Screenshot from 2024-03-25 21-20-05.png>)
 
 To resolve this and bring the Score table into 3NF, we can create a separate table for ExamType, which includes the exam_type, total_marks, and any other related information. Then, we can use the exam_type_id from the ExamType table in the Score table, eliminating the transitive dependency.
 
 New ExamType Table:
 
-![alt text](<../image/Screenshot from 2024-03-25 21-22-26.png>)
+![alt text](</image/Screenshot from 2024-03-25 21-22-26.png>)
 
 ---
 #### Boyce-Codd Normal Form (BCNF)

@@ -24,21 +24,21 @@ From my group, we covered some important topics about ranking and understanding.
 
 First off all, we learned about "RANK." This function helps us figure out the rank of something in a group of items. It's like giving each item a place in line, starting from 1. But, if there are items with the same rank, there might be gaps in the numbering. There was even a example using baseball stats to see who hit the most home runs in a season. 
 
-![alt text](<../image/Screenshot from 2024-03-20 23-32-26.png>)
+![alt text](</image/Screenshot from 2024-03-20 23-32-26.png>)
 
 In this image, we can see that there is gap in numbering.
 
 Then, we talked about "DENSE_RANK." This one is similar to "RANK," . It still gives items a rank, but it doesn't leave any gaps. So, if two items have the same rank, the next one will still be ranked correctly without any skipped numbers. We looked at another example using baseball stats to see who hit the most home runs without any gaps in the ranking.
 
-![alt text](<../image/Screenshot from 2024-03-20 23-35-44.png>)
+![alt text](</image/Screenshot from 2024-03-20 23-35-44.png>)
 
 Next up was "ROW_NUMBER."  It gives each row in a group a unique number, starting from 1. We saw an example where it helped us organize employees' names alphabetically by their regional office.
 
-![alt text](<../image/Screenshot from 2024-03-20 23-38-06.png>)
+![alt text](</image/Screenshot from 2024-03-20 23-38-06.png>)
 
 Lastly, we covered "PERCENT_RANK." This one calculates the percentage ranking of something in a group of items. It's like saying, "You're in the top 25%," or "You're at the bottom 10%." We checked an example with orders from different accounts to see how they stacked up against each other in terms of order value.
 
-![alt text](<../image/Pasted image.png>)
+![alt text](</image/Pasted image.png>)
 
 ---
 #### Windowing 
@@ -48,9 +48,9 @@ Window functions aren't just for adding up numbers. They also rank rows and comp
 
 In short, window functions is like adding a super tool to my data analysis toolkit. They let me do advanced analyses and make informed decisions.
 
-![alt text](<../image/Screenshot from 2024-03-20 23-56-00.png>)
+![alt text](</image/Screenshot from 2024-03-20 23-56-00.png>)
 
-![alt text](<../image/Screenshot from 2024-03-20 23-56-18.png>)
+![alt text](</image/Screenshot from 2024-03-20 23-56-18.png>)
 
 ---
 #### PIVOT
@@ -58,9 +58,9 @@ Third group presented on PIVOT. It is a tool for transforming data, like turning
 
 Lets say, there is a table showing products and their sales in different offices. Each row lists a product's sales in a specific office. But what if you want to flip that around? Instead of rows for each product's sales in various offices, you want columns for each office showing the sales for each product. That's where PIVOT comes in.
 
-![alt text](<../image/Screenshot from 2024-03-21 00-11-52.png>)
+![alt text](</image/Screenshot from 2024-03-21 00-11-52.png>)
 
-![alt text](<../image/Screenshot from 2024-03-21 00-12-03.png>)
+![alt text](</image/Screenshot from 2024-03-21 00-12-03.png>)
 
 ---
 #### ROLLUP and CUBE

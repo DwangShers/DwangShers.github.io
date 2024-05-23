@@ -46,17 +46,17 @@ For Example:
 
 First table
 
-![alt text](../image/union1.png)
+![alt text](/image/union1.png)
 
 Second table
 
-![alt text](../image/union2.png)
+![alt text](/image/union2.png)
 
 {SELECT * FROM First UNION SELECT * FROM Second;}
 
 Result set table:
 
-![alt text](../image/unionResult.png)
+![alt text](/image/unionResult.png)
 
 
 #### UnionAll
@@ -66,7 +66,7 @@ Union All operation is equal to the Union operation but it returns the set witho
 
 Result set table:
 
-![alt text](../image/unionAll.png)
+![alt text](/image/unionAll.png)
 
 #### Intersect
 Intersect operation is used to find the common elements between two sets. 
@@ -75,7 +75,7 @@ Intersect operation is used to find the common elements between two sets.
 
 Result set table:
 
-![alt text](../image/intersect.png)
+![alt text](/image/intersect.png)
 
 #### Minus 
 Minus operation is used to display the rows which are present in the first query but absent in second query.
@@ -84,7 +84,7 @@ Minus operation is used to display the rows which are present in the first query
 
 Result set table:
 
-![alt text](../image/minus.png)
+![alt text](/image/minus.png)
 
 ---
 When I went back to my home group, I taught about set operations to my home members and they also taught me about the Null Values in SQL.
