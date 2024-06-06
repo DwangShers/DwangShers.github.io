@@ -35,36 +35,3 @@ Transaction follows this ACID properties.
 
 #### A simple Transaction Model
 
-Let's do this transaction in PostgreSQL for better understanding the transaction.
-
-- I'm creating a database named 'test_transaction' and let's use this database.
-
-![alt text](<../../image/Screenshot from 2024-06-06 07-34-18.png>)
-
-- I have created a table 'account' and I have inserted the values inside the table.
-
-![alt text](<../../image/Screenshot from 2024-06-06 07-36-07.png>)
-
-- Here, I have first retrieved the data using 
-```sql
-SELECT * FROM accounts;
-```
-to show the current inserted values.
-- Then, 
-```sql
-BEGIN;
-```
- command is used to begin the transaction.
-- The first update command decreases the balance from the account A by 500. Then, the secound update command increases the balance of the account B by 500.
-- Then, I used 
-```sql
-COMMIT
-```
-command to finalize the transcaion.
-- After the transaction has been committed I have shown the result by command
-```sql
-SELECT * FROM accounts;
-```
-
-![alt text](../../image/sample_transaction.png)
-
