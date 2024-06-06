@@ -12,3 +12,17 @@ In our flipped class we learned about transactions in database which I will be s
 ### What is a Transaction?
 A transaction is a collection of operations that together form a single logical unit of work. This unit of work can access and potentially update various data items.
 It ensures that either all the operations are completed successfully, or not at all.
+
+A transaction is delimited by statements (or function calls)
+of the form begin transaction and end transaction.
+The transaction consists of all operations executed between
+the begin transaction and end transaction.
+
+For example, if you are performing a bank transfer:
+
+1. 'begin tansaction'
+2. Deduct amount from Acount A
+3. Add amount to Account B
+4. 'end transaction'
+
+If any operation fails within this sequence, the entire transaction fails, ensuring data integrity and consistency.
