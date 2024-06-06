@@ -74,12 +74,15 @@ In a database, a schedule is the order in which a series of transaction are exec
 Serializability is a concept that helps ensure that even if transactions are interleaved (in a non-serial schedule), the end result will be the same as if the transactions were executed one after the other (in a serial schedule).
 
 #### Testing of Serializability
+
 To test the serializability of a schedule, we can use Serialization Graph or Precedence Graph. A serialization Graph is nothing but a Directed Graph of the entire transactions of a schedule.
 ![alt text](../../image/directed_graph.png)
 
 #### Types of Serializability
+
 Serializability of any non-serial schedule can be verified using two types mainly: Conflict Serializability and View Serializability.
 
-* Conflict Serializability: Focuses on the order of conflicting operations. Uses a precedence graph to detect cycles. If no cycles, the schedule is conflict serializable.
-* View Serializability: Ensures that the final state of the database is the same as a serial schedule. Considers the read and write operations, even if they don’t conflict directly.
+- Conflict Serializability: Focuses on the order of conflicting operations. Uses a precedence graph to detect cycles. If no cycles, the schedule is conflict serializable.
+- View Serializability: Ensures that the final state of the database is the same as a serial schedule. Considers the read and write operations, even if they don’t conflict directly.
 
+Thank you
