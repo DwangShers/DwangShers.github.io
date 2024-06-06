@@ -31,7 +31,7 @@ If any operation fails within this sequence, the entire transaction fails, ensur
 
 Transaction follows this ACID properties.
 
-![alt text](../../image/ACID.png)
+![alt text](</image/ACID.png>)
 
 #### A simple Transaction Model
 
