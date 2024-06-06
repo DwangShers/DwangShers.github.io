@@ -48,11 +48,26 @@ Let's do this transaction in PostgreSQL for better understanding the trensaction
 
 ![alt text](<../../image/Screenshot from 2024-06-06 07-36-07.png>)
 
-- Here, I have first retrieved the data using 'SELECT * FROM accounts;' to show the current inserted values.
-- Then, 'BEGIN;' command is used to begin the transaction.
+- Here, I have first retrieved the data using 
+```sql
+SELECT * FROM accounts;
+```
+to show the current inserted values.
+- Then, 
+```sql
+BEGIN;
+```
+ command is used to begin the transaction.
 - The first update command decreases the balance from the account A by 500. Then, the secound update command increases the balance of the account B by 500.
-- Then, I used 'COMMIT' command to finalize the transcaion.
-- After the transaction has been committed I have shown the result by 'SELECT * FROM accounts;' command.
+- Then, I used 
+```sql
+COMMIT
+```
+command to finalize the transcaion.
+- After the transaction has been committed I have shown the result by command
+```sql
+SELECT * FROM accounts;
+```
 
 ![alt text](../../image/sample_transaction.png)
 
@@ -70,6 +85,7 @@ In a database, a schedule is the order in which a series of transaction are exec
 
 - Serial Schedule: Transactions are executed one after the other, without overlapping. This means one transaction is fully completed before the next one starts.
   - Example: Transaction A runs completely, then Transaction B runs completely.
+  
 - Non-Serial Schedule: Transactions are interleaved, meaning operations from different transactions are mixed together.
   - Example: Some operations of Transaction A are followed by some operations of Transaction B, and then back to Transaction A, and so on.
 
