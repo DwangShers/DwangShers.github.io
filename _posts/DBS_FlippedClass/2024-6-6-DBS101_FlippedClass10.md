@@ -66,3 +66,31 @@ command to finalize the transcaion.
 SELECT * FROM accounts;
 ```
 ![alt text](</image/sample_transaction.png>)
+
+### Serializability
+
+To understand serializability, I will break down the concept.
+
+#### What is a Schedule?
+
+In a database, a schedule is the order in which a series of transaction are executed.
+
+![alt text](</image/schedule.png>)
+
+#### Serial Schedule and Non-Serial Schedule
+
+- Serial Schedule: Transactions are executed one after the other, without overlapping. This means one transaction is fully completed before the next one starts.
+  - Example: Transaction A runs completely, then Transaction B runs completely.
+  
+- Non-Serial Schedule: Transactions are interleaved, meaning operations from different transactions are mixed together.
+  - Example: Some operations of Transaction A are followed by some operations of Transaction B, and then back to Transaction A, and so on.
+
+#### What is Serializability?
+
+Serializability is a concept that helps ensure that even if transactions are interleaved (in a non-serial schedule), the end result will be the same as if the transactions were executed one after the other (in a serial schedule).
+
+#### Testing of Serializability
+
+To test the serializability of a schedule, we can use Serialization Graph or Precedence Graph. A serialization Graph is nothing but a Directed Graph of the entire transactions of a schedule.
+
+![alt text](</image/directed_graph.png>)
