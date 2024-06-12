@@ -1,7 +1,7 @@
 ---
-Title: SWS101 Journal
-categories: [SWS101, Journal5]
-tags: [SWS101]
+Title: SWS101[CTF] Journal1
+categories: [SWS101[CTF], CTFJournal1]
+tags: [SWS101[CTF]]
 ---
 
-### Topic : Assembly Language
+### Topic : 
