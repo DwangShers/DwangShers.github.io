@@ -35,6 +35,7 @@ Answer: lin
 #### What service can you bruteforce with the text file found?
 Hint: What is on port 22?
 Hint says it is port 22 and we know that in port 22 the service is ssh.
+
 Answer: SSH
 
 #### What is the users password?
@@ -42,6 +43,7 @@ Hint: Hydra may be able to help.
 ![alt text](</image/CTF/Bounty Hacker/bounty3.png>)
 
 To get the  lin’s password, I bruteforce for the password using hydra and locks.txt as password list and found a password.
+
 Answer: RedDr4gonSynd1cat3
 
 #### User.txt
@@ -49,6 +51,7 @@ Answer: RedDr4gonSynd1cat3
 Now we have both the username and password. We can login to ssh.
 
 In the ssh server there is a user.txt and I captured the flag.
+
 Answer: THM{CR1M3_SyNd1C4T3}
 
 #### Root.txt
