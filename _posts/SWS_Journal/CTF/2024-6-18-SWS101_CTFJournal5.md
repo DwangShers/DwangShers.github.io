@@ -16,7 +16,7 @@ Reconnaissance
 
 ![alt text](</image/CTF/Wgel CTF/nmap.png>)
 
-There are 2 ports open that are ssh. Let’s check the webpage for this machine.
+There are 2 ports open that are ssh and http. Let’s check the webpage for this machine.
 
 ![alt text](</image/CTF/Wgel CTF/website.png>)
 
